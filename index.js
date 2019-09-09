@@ -18,7 +18,7 @@ route.get('/', (req, res) => {return res.send('Hello World')})
 
 app.use(route)
 
-app.listen(5000)
+app.listen(PORT)
 
 
 //import express from 'express';
